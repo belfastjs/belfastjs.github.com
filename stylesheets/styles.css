@@ -849,3 +849,9 @@ section #title .credits.right {
     display: none;
   }
 }
+
+/** outside gh template **/
+#next {
+  text-align: center;
+  padding-bottom: 40px;
+}
