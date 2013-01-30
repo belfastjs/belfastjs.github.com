@@ -2,8 +2,8 @@
 --------------------------------------------------*/
 body {
     font-family: 'droid-sans', sans-serif;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 1.250em;
+    line-height: 2.000em;
     font-style: normal;
     font-weight: 400;
     color: rgb(84, 84, 84);
@@ -15,29 +15,29 @@ body {
 h1 {
     font-style: normal;
     font-weight: 600;
-    line-height: 80px;
-    font-size: 60px;
-    margin-bottom: 20px;
+    line-height: 1.333em;
+    font-size: 3.000em;
+    margin-bottom: 0.333em;
     color: rgb(255, 76, 76);
 }
 
 h2 {
-    margin-top: 80px;
-    font-size: 36px;
+    margin-top: 2.222em;
+    font-size: 1.800em;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 1.111em;
     color: rgb(33, 33, 33);
 }
 
 h3 {
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 1.667em;
     font-weight: 600;
     font-style: normal;
-    margin-bottom: 0px;
-    margin-top: 40px;
+    margin-bottom: 0;
+    margin-top: 1.667em;
     color: rgb(33, 33, 33);
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 
@@ -56,7 +56,6 @@ a:hover {
 /* Paragraphs */
 p {
     text-indent: 0em;
-    line-height: 40px;
 }
 
 
@@ -69,7 +68,7 @@ ul, ol{
 
 /* Components
 --------------------------------------------------*/
-/* p */.intro { font-size: 24px; }
+/* p */.intro { font-size: 1.2em; }
 
 /* p */.intro a,
 /* p */.intro a:link,
@@ -81,7 +80,7 @@ ul, ol{
 /* p */.intro a:hover { color: rgb(226, 158, 0); }
 
 /* div */.wrapper{
-    max-width: 640px;
+    max-width: 32em;
     margin: 0 auto;
 }
 
@@ -114,9 +113,16 @@ ul, ol{
 }
 
 footer{
-    margin-top: 60px;
+    margin-top: 3em;
     border-top: dotted 1px #d7d7d7;
-    padding: 20px 0;
+    padding: 1em 0;
     text-align: center;
     font-size: .75em;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    body{ font-size: .875em; }
+
 }
