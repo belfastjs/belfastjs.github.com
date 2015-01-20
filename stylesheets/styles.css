@@ -101,6 +101,15 @@ ul, ol{
     color: #939393;
 }
 
+.venue-notes {
+    display: block;
+    text-align: center;
+    font-size: .875em;
+    color: #939393;
+    line-height: .875em;
+    font-size: .675em;
+}
+
 .more-links{
     text-align: center;
     border-top: dotted 1px #d7d7d7;
